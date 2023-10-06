@@ -30,7 +30,7 @@ internal class MultiTouchListener(
     private val isTranslateEnabled = true
     private val isScaleEnabled = true
     private val minimumScale = 0.5f
-    private val maximumScale = 10.0f
+    private val maximumScale = 2.0f
     private var mActivePointerId = INVALID_POINTER_ID
     private var mPrevX = 0f
     private var mPrevY = 0f
